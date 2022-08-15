@@ -9,7 +9,7 @@ import AllRoutes from './components/AllRoutes';
 function App() {
 
   return (
-//amol
+//amol patil
 
     <Box bgImage={bgImage} >
       <Navbar />
