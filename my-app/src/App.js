@@ -9,7 +9,7 @@ import AllRoutes from './components/AllRoutes';
 function App() {
 
   return (
-
+//amol
 
     <Box bgImage={bgImage} >
       <Navbar />
