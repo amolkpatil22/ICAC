@@ -1,0 +1,52 @@
+{
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Dr. Emily Walker",
+            "specialist": "Cardiologist",
+            "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        },
+        {
+            "id": 2,
+            "name": "Dr. James Carter",
+            "specialist": "Cardiologist",
+            "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+        },
+        {
+            "id": 3,
+            "name": "Dr. James Carter",
+            "specialist": "Neurologist",
+            "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+        },
+        {
+            "id": 4,
+            "name": "Dr. Olivia Bennett",
+            "specialist": "Pediatrician",
+            "image": "https://images.unsplash.com/photo-1612349316228-5942a9b489c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        },
+        {
+            "id": 5,
+            "name": "Dr. Benjamin Foster",
+            "specialist": "Orthopedic Surgeon",
+            "image": "https://plus.unsplash.com/premium_photo-1661764878654-3d0fc2eefcca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+        },
+        {
+            "id": 6,
+            "name": "Dr. Amelia Harris",
+            "specialist": "Dermatologist",
+            "image": "https://images.unsplash.com/photo-1622253694238-3b22139576c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80"
+        },
+        {
+            "id": 7,
+            "name": "Dr. William Turner",
+            "specialist": "Gastroenterologist",
+            "image": "https://plus.unsplash.com/premium_photo-1661766718556-13c2efac1388?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+        },
+        {
+            "id": 8,
+            "name": "Dr. Isabella Clarke",
+            "specialist": "Psychiatrist",
+            "image": "https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+    ]
+}
