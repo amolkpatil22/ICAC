@@ -1,0 +1,26 @@
+.footer{
+    border-left: solid teal;
+    padding:1%;
+
+   padding-right: 12%;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    text-align: left;
+}
+
+.doctors{
+    transition-duration: 2s;
+
+}
+.doctors:focus{
+ 
+ margin-right: 100%;
+ transform: scale(1.1);
+  
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+   grid-template-rows: repeat(1,1fr);
+}
