@@ -1,0 +1,18 @@
+.contact {
+    border: none !important;
+}
+
+.contact:hover {
+    border-bottom: 2px solid;
+}
+
+
+.button {
+    transition: background-color 0.3s ease, transform 0.1s ease !important;
+}
+
+.button:focus {
+    transform: scale(0.95) !important;
+ 
+    
+}
