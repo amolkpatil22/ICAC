@@ -24,3 +24,8 @@
     color: teal;
   transform: 0.8s;
 }
+
+.trans:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
