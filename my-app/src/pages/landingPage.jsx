@@ -1,9 +1,10 @@
-import { Box, Heading, Text, Flex, Link, Image, HStack, Grid, grid } from "@chakra-ui/react";
+import { Box, Heading, Text, Flex, Link, Image, HStack, Grid, grid, Icon } from "@chakra-ui/react";
 import styles from "./landingPage.module.css"
 import { Link as ReactLink } from "react-router-dom"
 import axios from "axios"
 import { useEffect, useState } from "react";
 import { transform } from "framer-motion";
+import { ArrowLeftIcon, ArrowRightIcon } from "@chakra-ui/icons";
 function LandingPage() {
     let api = "http://localhost:3000/doctors"
     let [doctors, setdoctors] = useState([])
@@ -33,7 +34,7 @@ function LandingPage() {
 
 
             {/* why to choose ICAC */}
-            <Box padding={"2%"} backgroundColor={"white"} paddingTop={"5%"} paddingBottom={"15%"}>
+            <Box padding={"2%"} backgroundColor={"white"} paddingTop={"5%"} paddingBottom={"10%"}>
                 <Heading marginBottom={"2%"} flexWrap={"wrap"} width={"30%"} color={"grey"} fontWeight={"semibold"}>WHY CHOOSE ICAC TRAUMATOLOGY?</Heading>
                 <Flex color={"black"} backgroundColor={"white"} borderTop={"grey solid"} style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)" }}>
                     <Box paddingLeft={"5%"} paddingTop={"8%"} borderRight={"grey solid"} >
@@ -62,31 +63,49 @@ function LandingPage() {
             </Box>
 
             {/* Our Doctors */}
-            <Box backgroundColor={"white"} paddingLeft={"2%"}>
-                <Heading>
-                    OUR DOCTORS
+            <Box backgroundColor={"white"} padding={"2%"}>
+                <Heading flexWrap={"wrap"} width={"30%"} color={"grey"} fontWeight={"semibold"} >
+                    OUR DOCTORS 🩺
                 </Heading>
 
-                <Flex marginTop={"5%"} >
+                <Flex padding={"2%"} marginTop={"5%"} justifyContent={"space-between"} alignItems={"center"}   >
+                    <ArrowLeftIcon boxSize={"2%"} onClick={((e) => {
+                        if (index == 0) {
+                            setindex(0)
+                        }
+                        else {
+                            setindex(index - 1)
+                        }
+                    })} />
+
                     {doctors?.map((e, ind) => {
-                        return <Grid className={styles.grid}>
-                            <Box display={index + 1 == ind ? "block" : "none"} >
-                                <Image height={"100%"} width={"100%"} onClick={((e) => { setindex(index == 4 ? 0 : (index + 1)); })} key={ind} src={e.image} ></Image>
+                        return <Flex >
+
+                            <Box width={"400px"} height={"600px"} display={index == ind ? "block" : "none"} textAlign={"center"}   >
+                                <Image borderRadius={"10px"} height={"80%"} width={"100%"} key={ind} src={e.image} ></Image>
                                 <Heading fontSize={"xl"}>{e.name}</Heading>
                                 <Text>Specialist: {e.specialist}</Text>
                             </Box>
-                            <Box className={styles.doctors}  display={index + 2 == ind ? "block" : "none"}>
-                                <Image height={"100%"} width={"100%"} onClick={((e) => { setindex(index == 4 ? 0 : (index + 1)); })} key={ind} src={e.image} ></Image>
+                            <Box width={"500px"} height={"700px"} display={index + 1 == ind ? "block" : "none"} textAlign={"center"} onClick={((e) => { index == 5 ? setindex(5) : setindex(index + 1) })}>
+                                <Image borderRadius={"10px"} height={"80%"} width={"100%"} key={ind} src={e.image} ></Image>
                                 <Heading fontSize={"xl"}>{e.name}</Heading>
                                 <Text>Specialist: {e.specialist}</Text>
                             </Box>
-                            <Box display={index + 3 == ind ? "block" : "none"}>
-                                <Image height={"100%"} width={"100%"} onClick={((e) => { setindex(index == 4 ? 0 : (index + 1)); })} key={ind} src={e.image} ></Image>
+                            <Box width={"400px"} height={"600px"} display={index + 2 == ind ? "block" : "none"} textAlign={"center"} >
+                                <Image borderRadius={"10px"} height={"80%"} width={"100%"} key={ind} src={e.image} ></Image>
                                 <Heading fontSize={"xl"}>{e.name}</Heading>
                                 <Text>Specialist: {e.specialist}</Text>
                             </Box>
-                        </Grid>
+                        </Flex>
                     })}
+                    <ArrowRightIcon boxSize={"2%"} onClick={((e) => {
+                        if (index == 5) {
+                            setindex(5)
+                        }
+                        else {
+                            setindex(index + 1)
+                        }
+                    })} />
 
                 </Flex>
             </Box>
