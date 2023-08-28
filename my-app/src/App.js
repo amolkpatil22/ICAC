@@ -11,7 +11,7 @@ function App() {
   return (
 
 
-    <Box backgroundSize={"contain"} bgImage={bgImage} >
+    <Box bgImage={bgImage} >
       <Navbar />
       <Box >
         <AllRoutes />

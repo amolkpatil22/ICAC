@@ -28,8 +28,8 @@ function Footer() {
           
             <Box className={styles.footer} >
                 <Text color={"grey"} fontWeight={"bold"}>SOCIAL MEDIA</Text>
-                <Link as={ReactLink} to="/twitter"  >Twitter</Link>
-                <Link as={ReactLink} to="/youtube"  >YouTube</Link>
+                <Link href="https://twitter.com/" >Twitter</Link>
+                <Link href="https://www.youtube.com/"  >YouTube</Link>
             </Box>
 
         </Flex>
