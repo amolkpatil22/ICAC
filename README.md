@@ -1,6 +1,6 @@
 # ICAC (Intelligent Care Access Center)
 
-Welcome to the README file for the Orthopedic Clinic website project. This document provides an overview of the project, its features, setup instructions, and other relevant information.
+This document provides an overview of the project, its features, setup instructions, and other relevant information.
 
 Table of Contents
 Project Overview
