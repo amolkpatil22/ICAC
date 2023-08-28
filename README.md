@@ -37,7 +37,7 @@ Clone the repository to your local machine using the following command:
 
 bash
 Copy code
-git clone https://github.com/your-username/orthopedic-clinic.git
+git clone https://github.com/amolkpatil22/gutsy-sheet-7629.git
 Navigate to the project directory:
 
 bash
