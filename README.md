@@ -1,37 +1,37 @@
 # ICAC (Intelligent Care Access Center)
 
-## Netlify Link: https://icachealthcare.netlify.app/
+### Netlify Link: https://icachealthcare.netlify.app/
 
-## Tech-Stack Uses: React,node.js,Chakra-UI
+### Tech-Stack Uses: React,node.js,Chakra-UI
 
-## Overview of Website:
+### Overview of Website:
 
-### Landing Page:
+#### Landing Page:
 
 ![Alt text](image.png)
 
-### Treatement Page:
+#### Treatement Page:
 
 ![Alt text](image-1.png)
 ![Alt text](image-2.png)
 
-### Techniques Page:
+#### Techniques Page:
 
 ![Alt text](image-3.png)
 ![Alt text](image-4.png)
 
-### Blog Page:
+#### Blog Page:
 
 ![Alt text](image-5.png)
 
-### Contact Page:
+#### Contact Page:
 
 ![Alt text](image-6.png)
 
-### Appoinment Form:
+#### Appoinment Form:
 
 ![Alt text](image-7.png)
 
 ![Alt text](image-8.png)
 
-#(******THANK YOU******)
+#THANK YOU
