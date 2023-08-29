@@ -32,6 +32,22 @@ function Contacts() {
             <Box width={"100%"} textAlign={"center"}>
                 <form onSubmit={((e) => {
                     e.preventDefault();
+                    window.Email.send({
+                        // Host: "smtp.elasticemail.com",
+                        // Port: "2525",
+                        // Username: "amolkpatil22@gmail.com",
+                        // Password: "666596CCEAA1CA1ED97E449A45EA9F6A7375",
+                        SecureToken: "230cff22-2194-4ce7-ad2b-732cf8461a28",
+                        To: `${data.email}`,
+                        From: "icac03679@gmail.com",
+                        Subject: `Inquiry`,
+                        Body: `Dear ${data.name},
+                        Thanks for contacting. Our associate will get in touch with you.                     
+                       
+                        Best regards,
+                        ICAC,`
+
+                    });
                     toast({
                         title: 'Thank you for your inquiry.',
                         description: "Our medical professionals will be in touch within the next 24 hours.",
