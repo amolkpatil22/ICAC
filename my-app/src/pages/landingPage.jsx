@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { transform } from "framer-motion";
 import { ArrowLeftIcon, ArrowRightIcon } from "@chakra-ui/icons";
 function LandingPage() {
-    let api = "http://localhost:3000/doctors"
+    let api = "https://icac-payload.onrender.com/doctors"
     let [doctors, setdoctors] = useState([])
     let [index, setindex] = useState(0)
 
@@ -33,7 +33,7 @@ function LandingPage() {
             </Box>
 
 
-            {/* why to choose ICAC */}
+          
             <Box padding={"2%"} backgroundColor={"white"} paddingTop={"5%"} paddingBottom={"10%"}>
                 <Heading marginBottom={"2%"} flexWrap={"wrap"} width={"30%"} color={"grey"} fontWeight={"semibold"}>WHY CHOOSE ICAC TRAUMATOLOGY?</Heading>
                 <Flex color={"black"} backgroundColor={"white"} borderTop={"grey solid"} style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)" }}>

@@ -13,8 +13,11 @@ import {
 } from "@chakra-ui/react";
 import { EditIcon } from "@chakra-ui/icons";
 import { useToast } from '@chakra-ui/react'
+import axios from "axios";
+
 
 function AppointmentForm() {
+
     const toast = useToast()
     let info = {
         fullName: "",
@@ -68,8 +71,13 @@ function AppointmentForm() {
         }
     };
 
+
+
+
+
+
     return (
-        <Box p={4} backgroundColor={"white"} width={"50%"} margin={"auto"} marginTop={"4%"} marginBottom={"4%"} borderRadius={"20px"}  >
+        <Box p={4} backgroundColor={"white"} width={"50%"} margin={"auto"} marginTop={"4%"} marginBottom={"4%"} borderRadius={"20px"} padding={"2%"} >
             {submitted ? (
                 <Grid templateColumns="repeat(2, 1fr)" padding={"2%"} gap={4}>
                     <Heading size={"lg"} color={"teal"} gridColumn="span 2" fontSize="xl" fontWeight="bold">
@@ -91,6 +99,38 @@ function AppointmentForm() {
                             duration: 9000,
                             isClosable: true,
                         });
+
+                        window.Email.send({
+                            // Host: "smtp.elasticemail.com",
+                            // Port: "2525",
+                            // Username: "amolkpatil22@gmail.com",
+                            // Password: "666596CCEAA1CA1ED97E449A45EA9F6A7375",
+                            SecureToken: "230cff22-2194-4ce7-ad2b-732cf8461a28",
+                            To: `${formData.email}`,
+                            From: "icac03679@gmail.com",
+                            Subject: `Appointment booked ${formData.appointmentDate}`,
+                            Body: `Dear ${formData.fullName},
+                          
+                            We are pleased to confirm your upcoming appointment with Dr.D.K.Patil  on ${formData.appointmentDate} at ${formData.appointmentTime}.
+                          
+                            Appointment Details:
+                            - Patient Name: ${formData.fullName}
+                            - Email: ${formData.email}
+                            - Phone Number: ${formData.phoneNumber}
+                            - Date of Birth: ${formData.dob}
+                            - Gender: ${formData.gender}
+                            - Address: ${formData.address}
+                            - Symptoms: ${formData.symptoms}
+                        
+                            Please ensure that you arrive at the clinic on time and bring any relevant medical records or documentation. If you have any further questions or need to reschedule, please contact us at icac03679@gmail.com.
+                         
+                            We look forward to providing you with the best possible care.
+                           
+                            Best regards,
+                            ICAC,`
+
+                        });
+
                         setSubmitted(false);
                         setFormData(info)
                     })} colorScheme="teal" gridColumn="span 2" mt={4}>
