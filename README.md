@@ -2,7 +2,7 @@
 
 ### Netlify Link: https://icachealthcare.netlify.app/
 
-### Tech-Stack Uses: React,node.js,Chakra-UI
+### Tech-Stack Used: React,node.js,Chakra-UI
 
 ### Overview of Website:
 
