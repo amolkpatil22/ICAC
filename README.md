@@ -1,69 +1,37 @@
 # ICAC (Intelligent Care Access Center)
 
-This document provides an overview of the project, its features, setup instructions, and other relevant information.
+## Netlify Link: https://icachealthcare.netlify.app/
 
-Table of Contents
-Project Overview
-Features
-Technologies Used
-Getting Started
-Prerequisites
-Installation
-Usage
-Contributing
-License
-Project Overview
-The Orthopedic Clinic website is a web application designed to provide information about the orthopedic clinic's services, doctors, appointment scheduling, and relevant resources. The website aims to facilitate a user-friendly experience for patients seeking orthopedic care.
+## Tech-Stack Uses: React,node.js,Chakra-UI
 
-Features
-Home Page: A welcoming landing page introducing the clinic and its key services.
-About Us: Information about the clinic's history, mission, and values.
-Services: Detailed descriptions of the orthopedic services offered.
-Doctors: Profiles of the clinic's orthopedic specialists, including their qualifications and areas of expertise.
-Appointment Scheduling: An online form for patients to request appointments.
-Contact: Contact details and a form for general inquiries.
-FAQs: Frequently asked questions about the clinic's services, procedures, and policies.
-Technologies Used
-React: A JavaScript library used for building the user interface.
-Chakra UI: A simple and customizable UI component library for React, ensuring a consistent and appealing design.
-[Other technologies you might have used] (Add any additional technologies you used in your project, such as state management libraries, form handling, routing, etc.)
-Getting Started
-Follow these instructions to set up the project on your local machine.
+## Overview of Website:
 
-Prerequisites
-Node.js: Ensure that Node.js is installed on your system. You can download it from nodejs.org.
-Installation
-Clone the repository to your local machine using the following command:
+### Landing Page:
 
-bash
-Copy code
-git clone https://github.com/amolkpatil22/gutsy-sheet-7629.git
-Navigate to the project directory:
+![Alt text](image.png)
 
-bash
-Copy code
-cd orthopedic-clinic
-Install the project dependencies:
+### Treatement Page:
 
-bash
-Copy code
-npm install
-Usage
-Start the development server:
+![Alt text](image-1.png)
+![Alt text](image-2.png)
 
-bash
-Copy code
-npm start
-Open your web browser and navigate to http://localhost:3000 to see the website in action.
+### Techniques Page:
 
-Contributing
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+![Alt text](image-3.png)
+![Alt text](image-4.png)
 
-Fork the repository on GitHub.
-Create a new branch with a descriptive name.
-Make your desired changes and improvements.
-Commit and push your changes to your forked repository.
-Create a pull request on the original repository to propose your changes.
-License
-[Specify the license you're using for your project, e.g., MIT License]
+### Blog Page:
 
+![Alt text](image-5.png)
+
+### Contact Page:
+
+![Alt text](image-6.png)
+
+### Appoinment Form:
+
+![Alt text](image-7.png)
+
+![Alt text](image-8.png)
+
+#******THANK YOU******
