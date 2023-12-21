@@ -9,7 +9,11 @@ import AllRoutes from './components/AllRoutes';
 function App() {
 
   return (
+<<<<<<< HEAD
 //amol patil
+=======
+
+>>>>>>> parent of 11f8380 (Your commit message)
 
     <Box bgImage={bgImage} >
       <Navbar />
