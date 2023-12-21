@@ -1,0 +1,9 @@
+.footer{
+    border-left: solid teal;
+    padding:1%;
+
+   padding-right: 12%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: left;
+}

@@ -1,0 +1,441 @@
+{
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Dr. Emily Walker",
+            "specialist": "Cardiologist",
+            "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        },
+        {
+            "id": 2,
+            "name": "Dr. James Carter",
+            "specialist": "Cardiologist",
+            "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80"
+        },
+        {
+            "id": 3,
+            "name": "Dr. James Carter",
+            "specialist": "Neurologist",
+            "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+        },
+        {
+            "id": 4,
+            "name": "Dr. Olivia Bennett",
+            "specialist": "Pediatrician",
+            "image": "https://images.unsplash.com/photo-1612349316228-5942a9b489c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        },
+        {
+            "id": 5,
+            "name": "Dr. Benjamin Foster",
+            "specialist": "Orthopedic Surgeon",
+            "image": "https://plus.unsplash.com/premium_photo-1661764878654-3d0fc2eefcca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+        },
+        {
+            "id": 6,
+            "name": "Dr. Amelia Harris",
+            "specialist": "Dermatologist",
+            "image": "https://images.unsplash.com/photo-1622253694238-3b22139576c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80"
+        },
+        {
+            "id": 7,
+            "name": "Dr. William Turner",
+            "specialist": "Gastroenterologist",
+            "image": "https://plus.unsplash.com/premium_photo-1661766718556-13c2efac1388?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+        },
+        {
+            "id": 8,
+            "name": "Dr. Isabella Clarke",
+            "specialist": "Psychiatrist",
+            "image": "https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+    ],
+    "treatment": [
+        {
+            "id": 1,
+            "name": "Low Back Pain",
+            "image": "https://cornerstonephysio.com/wp-content/uploads/2019/07/back-pain.jpg",
+            "causes": [
+                "Muscle strain",
+                "Herniated discs",
+                "Spinal stenosis"
+            ],
+            "treatment": [
+                "Rest",
+                "Physical therapy",
+                "Medications",
+                "Injections",
+                "Surgery (if necessary)"
+            ],
+            "precautions": [
+                "Maintain good posture",
+                "Engage in regular exercise",
+                "Lift with proper technique",
+                "Avoid prolonged sitting/standing"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Spinal Infection (Spinal Osteomyelitis)",
+            "image": "https://images.indianexpress.com/2021/10/spinal_1200_getty.jpg?w=640",
+            "causes": [
+                "Bacterial infections",
+                "fungal infections"
+            ],
+            "treatment": [
+                "Antibiotics or antifungal medications",
+                "Surgery (if needed)"
+            ],
+            "precautions": [
+                "Practice good hygiene",
+                "Manage underlying medical conditions",
+                "Avoid needle sharing"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Lumbar Herniated Disc (Slipped Disc)",
+            "image": "https://cdn.novusspinecenter.com/wp-content/uploads/2017/07/bulging-disc_1200x905-600x453.jpg",
+            "causes": [
+                "degeneration",
+                "Trauma",
+                "Improper lifting"
+            ],
+            "treatment": [
+                "Rest",
+                "Medications",
+                "Physical therapy",
+                "Injections",
+                "Surgery (if necessary)"
+            ],
+            "precautions": [
+                "Lift with your legs",
+                "Maintain a healthy weight",
+                "Use proper body mechanics"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Rotator Cuff Tear",
+            "image": "https://thebodymechanic.com/wp-content/uploads/2021/08/rotator_cuff-1-768x649.jpeg",
+            "causes": [
+                "Acute injuries",
+                "Overuse",
+                "Degeneration"
+            ],
+            "treatment": [
+                "Rest",
+                "Physical therapy",
+                "Medications",
+                "Injections",
+                "Surgery (if needed)"
+            ],
+            "precautions": [
+                "Warm up before activities",
+                "Use proper lifting techniques",
+                "Strengthen shoulder muscles"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Osteoarthritis",
+            "image": "https://creakyjoints.org//wp-content/uploads/2019/04/0419_Inflammatory-Osteoarthritis-in-Hands.jpg",
+            "causes": [
+                "Aging",
+                "Joint overuse",
+                "Injuries"
+            ],
+            "treatment": [
+                "Pain management",
+                "Physical therapy",
+                "Lifestyle changes",
+                "Joint injections",
+                "Surgery (if advanced)"
+            ],
+            "precautions": [
+                "Maintain a healthy weight",
+                "Engage in low-impact exercises",
+                "Use joint protection techniques"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Carpal Tunnel Syndrome",
+            "image": "https://orthoinfo.aaos.org/link/1d9f43869f9b426aaf3aa7ddf8bbbcf7.aspx",
+            "causes": [
+                "Repetitive stress",
+                "Inflammation"
+            ],
+            "treatment": [
+                "Wrist splinting",
+                "Rest",
+                "Medications",
+                "Injections",
+                "Surgery (if severe)"
+            ],
+            "precautions": [
+                "Maintain ergonomic work setup",
+                "Take breaks from repetitive tasks",
+                "Stretch and exercise hands"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Scoliosis",
+            "image": "https://newsnetwork.mayoclinic.org/n7-mcnn/7bcc9724adf7b803/uploads/2016/04/a-medical-illustration-of-a-spine-with-scoliosis-highlighting-degeneration-of-the-spinal-joints-original.jpg",
+            "causes": [
+                "Idiopathic",
+                "Congenital",
+                "Neuromuscular"
+            ],
+            "treatment": [
+                "Observation",
+                "Bracing",
+                "Physical therapy",
+                "Surgery (if severe)"
+            ],
+            "precautions": [
+                "Encourage good posture",
+                "Engage in regular core exercises"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Tennis Elbow (Lateral Epicondylitis)",
+            "image": "https://images.squarespace-cdn.com/content/v1/5ccd7abb2727be4e09c8ac4a/1562661230053-H7H4S9F1ZVFZ6XSOD5VH/Tennis-elbow.jpg",
+            "causes": [
+                "Overuse",
+                "Repetitive"
+            ],
+            "treatment": [
+                "Rest",
+                "Physical therapy",
+                "Medications",
+                "Injections"
+            ],
+            "precautions": [
+                "Use proper techniques",
+                "Stretch and warm up before repetitive motions"
+            ]
+        }
+    ],
+    "technique": [
+        {
+            "name": "Arthroscopy",
+            "description": "Arthroscopy is a minimally invasive surgical procedure that uses a small camera to visualize and treat joint problems.",
+            "link": "https://www.youtube.com/embed/pguNCtOwzEc?si=BHRq3s8BOrs3GKhZ",
+            "image": "data:image/jpeg;base64,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"
+        },
+        {
+            "name": "Joint Replacement Surgery",
+            "description": "Joint replacement surgery involves replacing damaged or arthritic joints with artificial implants to relieve pain and improve function.",
+            "link": "https://www.youtube.com/embed/EV6a995pyYk?si=u9oqc52bnweA-nsB",
+            "image": "https://www.femicure.com/blogs/Joint%20Replacement_1602658499.jpg"
+        },
+        {
+            "name": "Fracture Fixation",
+            "description": "Fracture fixation techniques realign fractured bones using screws, plates, or rods to stabilize them during healing.",
+            "link": "https://www.youtube.com/embed/WiDIF0wyfmY?si=3WUOJgo1cJoTPbud",
+            "image": "https://i.ytimg.com/vi/21plYYmaxi8/maxresdefault.jpg"
+        },
+        {
+            "name": "Physical Therapy",
+            "description": "Physical therapy involves exercise programs, manual therapy, and modalities to aid in recovery and improve mobility.",
+            "link": "https://www.youtube.com/embed/rLaK_Bc16jM?si=nl2ouXi1rdrBnevm",
+            "image": "data:image/jpeg;base64,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"
+        },
+        {
+            "name": "Spinal Fusion",
+            "description": "Spinal fusion surgery joins vertebrae to stabilize the spine and reduce pain caused by conditions like degenerative disc disease.",
+            "link": "https://www.youtube.com/embed/WID1p_UJZIM?si=kw0lNp32-bWGEhud",
+            "image": "https://stcharlesspine.com/wp-content/uploads/2023/01/what-are-the-most-effective-spinal-fusion-alternatives.png"
+        },
+        {
+            "name": "Pediatric Orthopedics",
+            "description": "Pediatric orthopedics focuses on treating musculoskeletal issues in children, including congenital conditions and growth-related .",
+            "link": "https://www.youtube.com/embed/1mkpMcUVZ-0?si=1IL5HkUfdMOv0bE_",
+            "image": "data:image/jpeg;base64,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"
+        }
+    ],
+    "articles": [
+        {
+            "title": "Understanding Low Back Pain",
+            "imageUrl": "url-to-your-image",
+            "content": "Detailed content about the causes, risk factors, and treatment options for low back pain...",
+            "author": "John Doe",
+            "date": "August 15, 2023",
+            "image": "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2230214.jpg",
+            "articleLink": "https://www.who.int/news-room/fact-sheets/detail/low-back-pain#:~:text=Low%20back%20pain%20(LBP)%20describes,life%20and%20mental%20well%2Dbeing."
+        },
+        {
+            "title": "Effective Exercises for Stronger Knees",
+            "imageUrl": "url-to-your-image",
+            "content": "Comprehensive guide to exercises that strengthen the knee joints and surrounding muscles...",
+            "author": "Jane Smith",
+            "date": "September 2, 2023",
+            "image": "https://i.ytimg.com/vi/pOrc3zADC7k/maxresdefault.jpg",
+            "articleLink": "https://www.medicalnewstoday.com/articles/325804"
+        },
+        {
+            "title": "Managing Arthritis Pain",
+            "imageUrl": "url-to-your-image",
+            "content": "Arthritis can cause significant pain and discomfort, affecting joint mobility and daily life...",
+            "author": "Sarah Johnson",
+            "date": "October 10, 2023",
+            "image": "https://resize.indiatvnews.com/en/resize/newbucket/730_-/2022/08/dgfh-1661310957.jpg",
+            "articleLink": "https://www.mayoclinic.org/diseases-conditions/arthritis/in-depth/arthritis/art-20046440"
+        },
+        {
+            "title": "Preventing Sports Injuries: Tips for Athletes",
+            "imageUrl": "url-to-your-image",
+            "content": "Athletes are prone to various sports-related injuries that can impact performance and future health...",
+            "author": "Michael Williams",
+            "date": "November 5, 2023",
+            "image": "https://www.hopkinsmedicine.org/-/media/images/health/1_-conditions/sports-injuries/preventing-sports-injuries-hero.jpg?h=500&iar=0&mh=500&mw=1300&w=1297&hash=6B2C6CF8FAA1D6CFAE0B39CA4C843FAC",
+            "articleLink": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/sports-injuries/preventing-sports-injuries"
+        },
+        {
+            "title": "Caring for Your Child's Bone Health",
+            "imageUrl": "url-to-your-image",
+            "content": "Childhood bone health is essential for growth and development...",
+            "author": "Emily Brown",
+            "date": "December 20, 2023",
+            "image": "https://assets-global.website-files.com/5ee7039040ea6efb80d7521c/63b284dec75920d3d51b7647_shutterstock_1930906520.jpg",
+            "articleLink": "https://kidshealth.org/en/parents/strong-bones.html#:~:text=Give%20Kids%20High%2DCalcium%20Foods,like%20orange%20juice%20or%20cereal."
+        },
+        {
+            "title": "Recovery After Orthopedic Surgery",
+            "imageUrl": "url-to-your-image",
+            "content": "Orthopedic surgery often requires careful recovery and rehabilitation...",
+            "author": "David Martinez",
+            "date": "January 18, 2024",
+            "image": "https://www.honorhealth.com/sites/default/files/styles/large/public/medical-services/honorhealth-after-orthopedic-surgery.jpg?itok=7XZN8-4_",
+            "articleLink": "https://www.honorhealth.com/medical-services/orthopedics/after-surgery#:~:text=It's%20normal%20to%20feel%20some,as%20directed%20by%20your%20physician."
+        },
+        {
+            "title": "Maintaining Strong Shoulders: Exercises and Tips",
+            "imageUrl": "url-to-your-image",
+            "content": "Shoulder strength is crucial for various daily activities and sports...",
+            "author": "Anna Wilson",
+            "date": "June 10, 2024",
+            "image": "https://images.wsj.net/im-762475/?width=1000&size=1",
+            "articleLink": "https://www.wsj.com/articles/best-shoulder-exercises-strength-2f5ca623"
+        },
+        {
+            "title": "The Role of Nutrition in Bone Health",
+            "imageUrl": "url-to-your-image",
+            "content": "Diet plays a vital role in maintaining strong and healthy bones...",
+            "author": "Robert Turner",
+            "date": "July 25, 2024",
+            "image": "https://americanbonehealth.org/wp-content/uploads/2017/01/foods-rich-in-calcium-820x547.jpg",
+            "articleLink": "https://americanbonehealth.org/nutrition/nutrientsforbonehealth/"
+        },
+        {
+            "title": "Common Foot Problems and Their Solutions",
+            "imageUrl": "url-to-your-image",
+            "content": "Feet are susceptible to various issues, including plantar fasciitis, bunions, and more...",
+            "author": "Olivia Davis",
+            "date": "August 12, 2024",
+            "image": "https://www.guthrie.org/sites/default/files/styles/1600x900/public/2022-04/simple-solutions-common-foot-problems.jpg?itok=1LUnpnMf",
+            "articleLink": "https://www.guthrie.org/blog/simple-solutions-common-foot-problems#:~:text=To%20reduce%20corns%20and%20calluses,heels%20that%20are%20too%20tight."
+        },
+        {
+            "title": "Understanding Low Back Pain",
+            "imageUrl": "url-to-your-image",
+            "content": "Detailed content about the causes, risk factors, and treatment options for low back pain...",
+            "author": "John Doe",
+            "date": "August 15, 2023",
+            "image": "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2230214.jpg",
+            "articleLink": "https://www.who.int/news-room/fact-sheets/detail/low-back-pain#:~:text=Low%20back%20pain%20(LBP)%20describes,life%20and%20mental%20well%2Dbeing."
+        },
+        {
+            "title": "Effective Exercises for Stronger Knees",
+            "imageUrl": "url-to-your-image",
+            "content": "Comprehensive guide to exercises that strengthen the knee joints and surrounding muscles...",
+            "author": "Jane Smith",
+            "date": "September 2, 2023",
+            "image": "https://i.ytimg.com/vi/pOrc3zADC7k/maxresdefault.jpg",
+            "articleLink": "https://www.medicalnewstoday.com/articles/325804"
+        },
+        {
+            "title": "Managing Arthritis Pain",
+            "imageUrl": "url-to-your-image",
+            "content": "Arthritis can cause significant pain and discomfort, affecting joint mobility and daily life...",
+            "author": "Sarah Johnson",
+            "date": "October 10, 2023",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.healthline.com%2Fhealth%2Fosteoarthritis%2Farthritis-natural-relief&psig=AOvVaw1_LB6KlVyMNGuMKRuoLMOo&ust=1693236146779000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOC5-6mS_YADFQAAAAAdAAAAABAE",
+            "articleLink": "https://www.mayoclinic.org/diseases-conditions/arthritis/in-depth/arthritis/art-20046440"
+        },
+        {
+            "title": "Preventing Sports Injuries: Tips for Athletes",
+            "imageUrl": "url-to-your-image",
+            "content": "Athletes are prone to various sports-related injuries that can impact performance and future health...",
+            "author": "Michael Williams",
+            "date": "November 5, 2023",
+            "image": "https://www.hopkinsmedicine.org/-/media/images/health/1_-conditions/sports-injuries/preventing-sports-injuries-hero.jpg?h=500&iar=0&mh=500&mw=1300&w=1297&hash=6B2C6CF8FAA1D6CFAE0B39CA4C843FAC",
+            "articleLink": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/sports-injuries/preventing-sports-injuries"
+        },
+        {
+            "title": "Caring for Your Child's Bone Health",
+            "imageUrl": "url-to-your-image",
+            "content": "Childhood bone health is essential for growth and development...",
+            "author": "Emily Brown",
+            "date": "December 20, 2023",
+            "image": "https://assets-global.website-files.com/5ee7039040ea6efb80d7521c/63b284dec75920d3d51b7647_shutterstock_1930906520.jpg",
+            "articleLink": "https://kidshealth.org/en/parents/strong-bones.html#:~:text=Give%20Kids%20High%2DCalcium%20Foods,like%20orange%20juice%20or%20cereal."
+        },
+        {
+            "title": "Recovery After Orthopedic Surgery",
+            "imageUrl": "url-to-your-image",
+            "content": "Orthopedic surgery often requires careful recovery and rehabilitation...",
+            "author": "David Martinez",
+            "date": "January 18, 2024",
+            "image": "https://www.honorhealth.com/sites/default/files/styles/large/public/medical-services/honorhealth-after-orthopedic-surgery.jpg?itok=7XZN8-4_",
+            "articleLink": "https://www.honorhealth.com/medical-services/orthopedics/after-surgery#:~:text=It's%20normal%20to%20feel%20some,as%20directed%20by%20your%20physician."
+        },
+        {
+            "title": "Maintaining Strong Shoulders: Exercises and Tips",
+            "imageUrl": "url-to-your-image",
+            "content": "Shoulder strength is crucial for various daily activities and sports...",
+            "author": "Anna Wilson",
+            "date": "June 10, 2024",
+            "image": "https://images.wsj.net/im-762475/?width=1000&size=1",
+            "articleLink": "https://www.wsj.com/articles/best-shoulder-exercises-strength-2f5ca623"
+        },
+        {
+            "title": "The Role of Nutrition in Bone Health",
+            "imageUrl": "url-to-your-image",
+            "content": "Diet plays a vital role in maintaining strong and healthy bones...",
+            "author": "Robert Turner",
+            "date": "July 25, 2024",
+            "image": "https://americanbonehealth.org/wp-content/uploads/2017/01/foods-rich-in-calcium-820x547.jpg",
+            "articleLink": "https://americanbonehealth.org/nutrition/nutrientsforbonehealth/"
+        },
+        {
+            "title": "Common Foot Problems and Their Solutions",
+            "imageUrl": "url-to-your-image",
+            "content": "Feet are susceptible to various issues, including plantar fasciitis, bunions, and more...",
+            "author": "Olivia Davis",
+            "date": "August 12, 2024",
+            "image": "https://www.guthrie.org/sites/default/files/styles/1600x900/public/2022-04/simple-solutions-common-foot-problems.jpg?itok=1LUnpnMf",
+            "articleLink": "https://www.guthrie.org/blog/simple-solutions-common-foot-problems#:~:text=To%20reduce%20corns%20and%20calluses,heels%20that%20are%20too%20tight."
+        },
+        {
+            "title": "The Role of Nutrition in Bone Health",
+            "imageUrl": "url-to-your-image",
+            "content": "Diet plays a vital role in maintaining strong and healthy bones...",
+            "author": "Robert Turner",
+            "date": "July 25, 2024",
+            "image": "https://americanbonehealth.org/wp-content/uploads/2017/01/foods-rich-in-calcium-820x547.jpg",
+            "articleLink": "https://americanbonehealth.org/nutrition/nutrientsforbonehealth/"
+        },
+        {
+            "title": "Common Foot Problems and Their Solutions",
+            "imageUrl": "url-to-your-image",
+            "content": "Feet are susceptible to various issues, including plantar fasciitis, bunions, and more...",
+            "author": "Olivia Davis",
+            "date": "August 12, 2024",
+            "image": "https://www.guthrie.org/sites/default/files/styles/1600x900/public/2022-04/simple-solutions-common-foot-problems.jpg?itok=1LUnpnMf",
+            "articleLink": "https://www.guthrie.org/blog/simple-solutions-common-foot-problems#:~:text=To%20reduce%20corns%20and%20calluses,heels%20that%20are%20too%20tight."
+        }
+    ]
+}
